@@ -6,6 +6,7 @@ var ServiceOrderSchema = new Schema({
     address: { type: String, default: '' },
     date: { type: Date, default: Date.now },
     value: { type: Number, min: 0, default: 0 },
+    paid: { type: Boolean, default: false},
     description: { type: String, default: '' }
 });
 
